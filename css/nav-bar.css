@@ -1,0 +1,9 @@
+.nav {
+  position: fixed; /* 스크롤 내려도 고정되야하므로 fixed로 고정 */
+  width: 100%; /* position fixed할 때 반드시 width 설정해줘야함 */
+  background-color: #fcfcfc;
+  padding: 20px 50px;
+  left: 0px;
+  bottom: 10px;
+  border-top: 1px solid #f7f7f7;
+}

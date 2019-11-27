@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.header .header__title {
+  font-size: 24px;
+  font-weight: 600; /* 폰트 굴기. google fonts에서 bold 700을 import했으므로 사용가능 */
+}
+
+.header .header__icon {
+  font-size: 20px;
+  margin-left: 20px;
+  cursor: pointer; /* 커서를 위에 올리면 손가락가르키는 모양으로 바뀜.
+   이렇게만 하면 아직 모양만 바뀜 링크를 달아줘야 클릭하면 이동하는 거임 */
+}
+
+.header .header__back-btn {
+  font-size: 22px;
+  margin-right: 20px;
+}
+
+.header .header__header-column {
+  display: flex;
+  align-items: center;
+}
