@@ -4,6 +4,12 @@
 @import "header.css";
 @import "nav-bar.css";
 
+* {
+  box-sizing: border-box; /* box의 크기를 어떤 것을 기준으로 삼을지 결정 */
+  /* border-box : 테두리를 기준으로 크기 결정 */
+  /* content-box : 기본적으로 default 설정값. 콘텐츠 영역을 기준으로 크기 결정*/
+}
+
 body {
   background-color: white;
   padding: 10px 20px;
