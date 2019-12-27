@@ -16,3 +16,22 @@
 .nav i {
   font-size: 20px;
 }
+
+.nav .nav__list-link {
+  position: relative;
+}
+
+.nav .nav__badage {
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  width: 18px;
+  height: 18px;
+  font-size: 10px;
+  color: white;
+  background: #dc5d46;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%; /* box의 높이의 반으로 해주면 원이 된다. 50%로 해도 됨 */
+}

@@ -3,10 +3,12 @@
 @import "status-bar.css";
 @import "header.css";
 @import "nav-bar.css";
+@import "friend.css";
 
 * {
   box-sizing: border-box; /* box의 크기를 어떤 것을 기준으로 삼을지 결정 */
   /* border-box : 테두리를 기준으로 크기 결정 */
+  /* border-box하면 box에 padding을 더해도 box크기가 늘지 않아서 밀려나지 않는다. */
   /* content-box : 기본적으로 default 설정값. 콘텐츠 영역을 기준으로 크기 결정*/
 }
 

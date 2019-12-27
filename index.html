@@ -45,21 +45,26 @@
     <!-- main은 브라우져내에서 디자인측면에서 이 부분부터 메인아라고 지정하는 부분  -->
     <main class="chats">
       <ul class="chats__list">
-        <li class="chats__chat chat">
+        <div class="chats__chat chat">
           <a href="chat.html">
-            <div class="chat__column">
-              <!-- 이미지 크기가 웹사이트 어디에서나 전부 똑같으므로 전역으로 만든다. -->
-              <img class="chat__avatar g-avatar" src="images/avatar.jpg" />
-              <div class="chat__content">
-                <span class="chat__uesername">Lynn</span>
-                <span class="chat__alarm-state">
-                  <i class="fas fa-bell"></i>
-                </span>
-                <span class="chat__preview">Going home</span>
+            <div class="chats__chat friend friend--lg">
+              <div class="friend__column">
+                <!-- 이미지 크기가 웹사이트 어디에서나 전부 똑같으므로 전역으로 만든다. -->
+                <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
+                <div class="friend__content">
+                  <span class="friend__name">
+                    Lynn
+                  </span>
+                  <span class="friend__status">
+                    Going home!
+                  </span>
+                </div>
               </div>
-            </div>
-            <div class="chat__column">
-              <span class="chat__timestamp">Yesterday</span>
+              <div class="friend__column">
+                <div class="friend__now-listening">
+                  <span class="chat__timestamp">March 8</span>
+                </div>
+              </div>
             </div>
           </a>
         </li>
@@ -67,6 +72,7 @@
     </main>
     <nav class="nav">
       <ul class="nav__list">
+        <!-- ul태그 : unorded list 순서중요하지않은 목록-->
         <li class="nav__list-item">
           <a href="friends.html" class="nav__list-link">
             <i class="far fa-user"></i>
@@ -74,6 +80,7 @@
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
+            <div class="nav__badage">8</div>
             <i class="fas fa-comment"></i>
           </a>
         </li>
